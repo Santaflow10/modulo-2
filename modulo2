@@ -1,0 +1,16 @@
+const LibroGOD={ 
+    Creator: "George RR Martin",
+    Titulo:  "Tormenta de Espadas",
+    Fecha: "Agosto de 2000",
+    Url:"https://www.estacionlibro.com.ar/MLA-1301666723-tormenta-de-espadas-george-rr-martin-_JM?gclid=Cj0KCQjwnMWkBhDLARIsAHBOftr1YIO4D-cRt_e-TrnxUVFf4U8UbX-TWL7Qq61MnFIqeUWAHPEn3PsaAjsnEALw_wcB",
+               }  
+
+
+
+
+const ahora=new Date ;
+const dia= ahora.getDate()-16;
+const mes= ahora.getMonth()+7;
+const año= ahora.getFullYear()-21;
+const lista=["santiago", 20, false, dia, mes, año ,LibroGOD];
+console.log(lista)
