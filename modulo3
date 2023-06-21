@@ -23,7 +23,7 @@ while (boolean)
     i++;
     if (i == 11) 
     {
-        boolean = false;
+       break;
     }
 }
 console.log(factorial_break)
