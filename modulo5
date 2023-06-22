@@ -1,0 +1,8 @@
+let vargenerica= 175
+  let vargenerica2=1.75
+  let vargenerica3=65.7
+  let vargenerica4=(Math.round(vargenerica2))
+  let vargenerica5=(Math.floor(vargenerica3))
+  let maximoValor = Number.MAX_VALUE;
+  let vargenerica6 = (maximoValor + 1)
+  console.log(vargenerica6)
