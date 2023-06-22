@@ -5,4 +5,5 @@ let vargenerica= 175
   let vargenerica5=(Math.floor(vargenerica3))
   let maximoValor = Number.MAX_VALUE;
   let vargenerica6 = (maximoValor + 1)
-  console.log(vargenerica6)
+  let verdad= (vargenerica6== Number.MAX_VALUE)
+  console.log(verdad)
